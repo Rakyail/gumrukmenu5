@@ -4,7 +4,7 @@ $(document).ready(function(){
       var target = $($(this).attr('data-target'));
       target.collapse('toggle'); // Collapse'ı aç/kapat
       target.on('shown.bs.collapse', function () {
-          var offset = target.offset().top - 160; // Hedefin pozisyonunu al ve 50 piksel aşağı kaydır
+          var offset = target.offset().top - 180; // Hedefin pozisyonunu al ve 50 piksel aşağı kaydır
           $('html, body').animate({
               scrollTop: offset
           }, 500);
