@@ -7,7 +7,7 @@ $(document).ready(function(){
           var offset = target.offset().top - 160; // Hedefin pozisyonunu al ve 50 piksel aşağı kaydır
           $('html, body').animate({
               scrollTop: offset
-          }, 1000);
+          }, 100);
       });
   });
 });
